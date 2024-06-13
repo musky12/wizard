@@ -54,7 +54,7 @@
 }
 
 .sub__judul {
-  margin-top: 6rem;
+  margin-top: 2.5rem;
 }
 
 .sub__judul-h2 {
@@ -71,7 +71,8 @@
 }
 
 .custom-width {
-  max-width: 90%;
+  max-width: 75%;
+  margin-bottom: 2rem;
 }
 
 .carousel-inner {
@@ -183,6 +184,14 @@
 }
 .slide:hover {
   transform: scale(0.8);
+}
+.custom-slide {
+  display: flex;
+  text-align: center;
+}
+.custom-width-2 {
+  width: 100px;
+  height: auto;
 }
 
 @keyframes scroll {
