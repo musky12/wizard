@@ -3,7 +3,18 @@
   color: #0657d7;
   font-size: 24px;
   transition: 0.3s color;
-  margin-left: 7rem;
+  /* margin-left: 7rem; */
+}
+
+.logo {
+  margin-top: .75rem;
+  margin-left: 6.5rem;
+
+}
+
+.custom-logo {
+  width: 30px;
+  margin-bottom: 1.25rem;
 }
 
 .login-button {
@@ -53,6 +64,15 @@
   border: solid 1.5px #000;
 }
 
+.custom-card-btn {
+  background: white;
+  color: #202020;
+}
+.custom-card-btn:hover {
+  border: solid 1.5px white;
+  color: white;
+}
+
 .sub__judul {
   margin-top: 2.5rem;
 }
@@ -75,21 +95,30 @@
   margin-bottom: 2rem;
 }
 
-.carousel-inner {
-  width: 100%;
-  overflow: hidden;
-}
-.carousel-item {
-  transition: transform 1s ease;
-}
 
 /* Section-2 */
+.custom-services{
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 1.5rem;
+}
+.custom-services h2 {
+  background: #5DD4EB;                                      
+}
+.row{
+  row-gap: 1.5rem;
+}
 .card {
   cursor: pointer;
   transition: 0.25s ease;
 }
+.card-title{
+  display: flex;
+  justify-content: flex-start;
+  text-align: center;
+}
 .card:hover {
-  transform: translateY(-1rem);
+  transform: translateY(-.75rem);
 }
 .sub__judul-2 {
   display: flex;
@@ -102,6 +131,16 @@
   /* margin-bottom: rem; */
 }
 
+/* Section 3 */
+.custom-card-img {
+  width: 100%;
+  height: auto;
+}
+
+.custom-card-img img {
+  width: 250px;
+}
+
 @media (min-width: 991px) {
   .nav-link::after {
     content: "";
@@ -111,6 +150,7 @@
     transform: translateX(-50%);
     width: 0;
     height: 2px;
+    border-radius: 50px;
     background-color: #0657d7;
     visibility: hidden;
     transition: 0.3s ease-in-out;
